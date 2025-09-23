@@ -8,7 +8,7 @@ import './App.css';
 import { ClipLoader } from 'react-spinners';
 
 // Set base URL for axios
-axios.defaults.baseURL = 'http://localhost:5000/api';
+axios.defaults.baseURL = 'https://drdlbackend.onrender.com/api';
 
 // Custom Loading Component
 const Loading = () => (
